@@ -18,7 +18,7 @@ const clearUI = () => {
 const createSaveBtn = (saveUrl) => {
     const link = document.createElement('a')
     link.id = 'save-link'
-    link.classList = 'bg-red-500 hover:bg-red-700 text-white font-bold py-2 rounded w-1/3 m-auto my-5'
+    link.classList = 'bg-[#BEC9DF] text-[#164E63] hover:bg-[#41CBBF] font-bold py-2 rounded w-1/3 m-auto my-5'
     link.href = saveUrl
     link.download ='qrcode'
     link.innerHTML = 'Save Image'
